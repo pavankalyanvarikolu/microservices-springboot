@@ -1,0 +1,21 @@
+show dbs
+use admin
+mongo admin -u root -p password;
+show dbs
+mongo admin -u root -p password
+use admin
+show dbs
+use admin
+mongo admin -u root -p password
+mongosh -u root
+mongosh --authenticationDatabase "admin" -u root -p password
+show dbs
+mongosh "mongodb://root:password@localhost:27017/product-service?authSource=admin"
+mongo -u root -p password --authenticationDatabase admin
+mongo
+mongodb -u "root" -p "password";
+mongodb -u "root" -p "password"
+mongodb -u "root" -p
+mongodb -u root -pp
+mongodb -u root -pp
+mongodb -u root -p
